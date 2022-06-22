@@ -17,8 +17,7 @@ if(isset($_POST['authorization'])){
         echo "Email введен неверно.";
         exit;
     }
-
-	// $query = mysqli_query($link, "SELECT ID_users FROM users WHERE Email = '".mysqli_real_escape_string($link, $_POST['Email'])."'");
+	
 	$query = mysqli_query($link, "SELECT * FROM users WHERE Email='$Email'");
 	$myrow = mysqli_fetch_array($query);
 	if (empty($myrow['Password']))
