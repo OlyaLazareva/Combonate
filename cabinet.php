@@ -20,8 +20,8 @@ require "db.php";
 <body>
     <header class="header">
         <ul>
-            <li><a href="index.php"><img class="header_logo" width="220" height="175" src="image/logo.png" alt="Логотип"></a></li>
-            <li><a href="menu.php"><img class="menu" src="image/menu.png" alt=""></a></li>
+            <li><a href="index.php"><img class="header_logo" width="220" height="175" src="../image/logo.png" alt="Логотип"></a></li>
+            <li><a href="menu.php"><img class="menu" src="../image/menu.png" alt=""></a></li>
             <li><p>Пользователь</p></li>
         </ul>
     </header>
@@ -39,7 +39,7 @@ require "db.php";
             <ul>
                 <li><a href="#1" tabindex="1" class="i_help">Я помогаю</a>
                     <section class="sub_menu1">
-                        <img class="animal_help" src="image/" alt="">
+                        <img class="animal_help" src="../image/" alt="">
                         <section class="animal_name"><p>Трой</p></section>
                         <section class="animal_age"><p>3 года</p></section>
                     </section>
@@ -55,7 +55,7 @@ require "db.php";
     </main>
 
     <footer class="Footer"> <!-- подвал сайта-->
-        <img class="Footer_logo" src="image/f-logo.png" alt=""> <!-- логотип организации-->
+        <img class="Footer_logo" src="../image/f-logo.png" alt=""> <!-- логотип организации-->
         <ul class="Footer_menu"> <!-- меню-->
             <li class="Footer_about"><a href="о нас.html"><p>О компании</p></a></li> <!-- переход на страницу о нас-->
             <li class="Footer_news"><a href="новости.html"><p>Новости</p></a></li> <!-- переход на страницу новости-->
@@ -70,11 +70,11 @@ require "db.php";
 
         <div class="Media"> <!-- социальные сети-->
             <p>Мы в сети</p>
-            <img class="Facebook" src="image/facebook.png" alt=""> <!-- логотип Facebook-->
-            <img class="Instagram" src="image/instagram.png" alt=""> <!-- логотип Instagram-->
-            <img class="Vk" src="image/vk.png" alt=""> <!-- логотип Вконтакте-->
-            <img class="Youtube" src="image/youtube.png" alt=""> <!-- логотип Youtube-->
-            <img class="Twitter" src="image/twitter.png" alt=""> <!-- логотип Twitter-->
+            <img class="Facebook" src="../image/facebook.png" alt=""> <!-- логотип Facebook-->
+            <img class="Instagram" src="../image/instagram.png" alt=""> <!-- логотип Instagram-->
+            <img class="Vk" src="../image/vk.png" alt=""> <!-- логотип Вконтакте-->
+            <img class="Youtube" src="../image/youtube.png" alt=""> <!-- логотип Youtube-->
+            <img class="Twitter" src="../image/twitter.png" alt=""> <!-- логотип Twitter-->
         </div>
         <div class="year"><p>2017-2022</p></div> <!-- год работы сайта-->
     </footer>
