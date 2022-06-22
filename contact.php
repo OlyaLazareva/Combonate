@@ -20,8 +20,8 @@ require "db.php";
 <body>
     <header class="header">
         <ul>  
-            <li><a href="index.php"><img class="header_logo" width="220" height="175" src="image/logo.png" alt="Логотип"></a></li>
-            <li><a href="menu.php"><img class="menu" src="image/menu.png" alt=""></a></li>
+            <li><a href="index.php"><img class="header_logo" width="220" height="175" src="../image/logo.png" alt="Логотип"></a></li>
+            <li><a href="menu.php"><img class="menu" src="../image/menu.png" alt=""></a></li>
         </ul>
     </header>
 
@@ -39,14 +39,14 @@ require "db.php";
         </div>
 
         <div class="Maria">
-            <img class="Maria_img" src="image/мария.png" alt="">
+            <img class="Maria_img" src="../image/мария.png" alt="">
             <div class="Maria_name"><p>Мария Волкова</p></div>
             <div class="Maria_definition"><p>Посещение и помощь приюту</p></div>
             <div class="Maria_tel"><p>+7(992)-284-2842</p></div>
         </div>
 
         <div class="Alexey">
-            <img class="Alexey_img" src="image/алексей.png" alt="">
+            <img class="Alexey_img" src="../image/алексей.png" alt="">
             <div class="Alexey_name"><p>Алексей дмитриев</p></div>
             <div class="Alexey_definition"><p>Волонтер, посещение приюта</p></div>
             <div class="Alexey_tel"><p>+7(942)-294-4928</p></div>
@@ -102,7 +102,7 @@ require "db.php";
     </main>
 
     <footer class="footer">
-        <img class="footer_logo" src="image/f-logo.png" alt="Логотип">
+        <img class="footer_logo" src="../image/f-logo.png" alt="Логотип">
         <div class="Footer_menu">
             <div class="Footer_about"><p>О компании</p></div>
             <div class="Footer_news"><p>Новости</p></div>
@@ -119,11 +119,11 @@ require "db.php";
 
         <div class="Media">
             <p>Мы в сети</p>
-            <img class="Facebook" src="image/facebook.png" alt="">
-            <img class="Instagram" src="image/instagram.png" alt="">
-            <img class="Vk" src="image/vk.png" alt="">
-            <img class="Youtube" src="image/youtube.png" alt="">
-            <img class="Twitter" src="image/twitter.png" alt="">
+            <img class="Facebook" src="../image/facebook.png" alt="">
+            <img class="Instagram" src="../image/instagram.png" alt="">
+            <img class="Vk" src="../image/vk.png" alt="">
+            <img class="Youtube" src="../image/youtube.png" alt="">
+            <img class="Twitter" src="../image/twitter.png" alt="">
         </div>
         <div class="year"><p>2017-2022</p></div>
     </footer>
