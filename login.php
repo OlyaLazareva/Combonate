@@ -3,7 +3,7 @@ require "db.php";
 
 if(isset($_POST['authorization'])){
 	$err = [];
-    $Email = "";
+    	$Email = "";
 
 	$Email = filter_var(trim($_POST['Email']), FILTER_SANITIZE_STRING);
 	$Password = filter_var(trim($_POST['Password']), FILTER_SANITIZE_STRING);
@@ -17,7 +17,6 @@ if(isset($_POST['authorization'])){
         echo "Email введен неверно.";
         exit;
     }
-	
 	$query = mysqli_query($link, "SELECT * FROM users WHERE Email='$Email'");
 	$myrow = mysqli_fetch_array($query);
 	if (empty($myrow['Password']))
