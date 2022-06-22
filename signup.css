@@ -1,0 +1,209 @@
+#zatemnenie {
+    /* background: rgba(102, 102, 102, 0.5); */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: none; */
+}
+
+#okno1 {
+    width: 661px;
+    height: 477px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: #e5e1dd;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#okno1 line {
+    position: absolute;
+    top: 43px;
+    left: 330px;
+    width: 0px;
+    height: 42px;
+    background: transparent;
+    border: 1px solid #707070;
+}
+
+#okno1 h2 {
+    position: absolute;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000;
+    top: 43px;
+    margin: 0;
+}
+
+#Name_users {
+    top: 130px;
+    left: 60px;
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    width: 514px;
+    height: 55px;
+    border-radius: 24px;
+    background: #fff;
+    padding-left: 20px;
+}
+
+#Email {
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    width: 514px;
+    height: 55px;
+    border-radius: 24px;
+    background: #fff;
+    padding-left: 20px;
+    top: 219px;
+    left: 60px;
+}
+
+#Password {
+    top: 308px;
+    left: 60px;
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    width: 514px;
+    height: 55px;
+    border-radius: 24px;
+    background: #fff;
+    padding-left: 20px;
+}
+
+/* #Password {
+    top: 397px;
+    left: 60px;
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    width: 514px;
+    height: 55px;
+    border-radius: 24px;
+    background: #fff;
+    padding-left: 20px;
+} */
+
+#zatemnenie:target {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    display: inline-block;
+    padding: 0 12px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.authorization {
+    position: absolute;
+    width: 109px;
+    height: 43px;
+    border-radius: 21.5px;
+    background: #cfab84;
+    font-family: Lora;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    top: 302px;
+    left: 276px;
+    border: none;
+}
+
+.authorization:hover {
+    text-decoration: underline;
+}
+
+.button {
+    position: absolute;
+    width: 161px;
+    height: 43px;
+    border-radius: 21.5px;
+    background: #cfab84;
+    font-family: Lora;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    top: 519px;
+    left: 250px;
+    border: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.checkbox {
+    position: absolute;
+    top: 462px;
+    left: 91px;
+}
+
+.checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+}
+
+.checkbox:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+}
+
+.checkbox:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.checkbox:focus:not(:checked)+label::before {
+    border-color: #80bdff;
+}
+
+.checkbox:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.checkbox:disabled+label::before {
+    background-color: #e9ecef;
+}
