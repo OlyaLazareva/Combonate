@@ -64,7 +64,7 @@ if(isset($_POST['authorization'])){
                     <a href="signup.php"><h2 style="color: #707070; left: 139px; list-style:none; text-decoration:none;">Регистрация</h2></a>
                     <line></line>
                     <h2 style="right: 246px;">Вход</h2>
-                    <a href="index.php"><img width="26" height="26" class="close" src="/image/cancel.png" alt="Закрыть"></a>
+                    <a href="index.php"><img width="26" height="26" class="close" src="../image/cancel.png" alt="Закрыть"></a>
                     
                     <form action="login.php" method="post">
                         <input name="Email" id="Email" type="text" placeholder="Email">
