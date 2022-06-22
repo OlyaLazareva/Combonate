@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_logo {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+.menu {
+    position: absolute;
+    right: 51px;
+    top: 36px;
+}
+
+.main h1 {
+    position: absolute;
+    top: 216px;
+    left: 878px;
+    font-family: Lora;
+    font-weight: normal;
+    font-size: 40px;
+    color: #0d0d0d;
+}
+
+.news1_img {
+    position: absolute;
+    top: 327px;
+    left: 100px;
+}
+
+.news1_definition p {
+    position: absolute;
+    top: 764px;
+    left: 100px;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.news1_calendar {
+    position: absolute;
+    top: 796px;
+    left: 100px;
+}
+
+.news1_date p {
+    position: absolute;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    top: 794px;
+    left: 120px;
+}
+
+.news2_img {
+    position: absolute;
+    top: 327px;
+    right: 100px;
+}
+
+.news2_definition p {
+    position: absolute;
+    top: 764px;
+    left: 1020px;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.news2_calendar {
+    position: absolute;
+    top: 796px;
+    right: 866px;
+}
+
+.news2_date p {
+    position: absolute;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    top: 794px;
+    right: 807px;
+}
+
+.news3_img {
+    position: absolute;
+    top: 862px;
+    left: 100px;
+}
+
+.news3_definition p {
+    position: absolute;
+    top: 1299px;
+    left: 100px;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.news3_calendar {
+    position: absolute;
+    top: 1331px;
+    left: 100px;
+}
+
+.news3_date p {
+    position: absolute;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    top: 1329px;
+    left: 120px;
+}
+
+.news4_img {
+    position: absolute;
+    top: 862px;
+    right: 100px;
+}
+
+.news4_definition p {
+    position: absolute;
+    top: 1299px;
+    right: 666px;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.news4_calendar {
+    position: absolute;
+    top: 1329px;
+    right: 866px;
+}
+
+.news4_date p {
+    position: absolute;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    top: 1329px;
+    right: 804px;
+}
+
+.news5_img {
+    position: absolute;
+    top: 1397px;
+    left: 100px;
+}
+
+.news5_definition p {
+    position: absolute;
+    top: 1834px;
+    left: 100px;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.news5_calendar {
+    position: absolute;
+    top: 1893px;
+    left: 100px;
+}
+
+.news5_date p {
+    position: absolute;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    top: 1891px;
+    left: 120px;
+}
+
+.news6_img {
+    position: absolute;
+    top: 1397px;
+    right: 100px;
+}
+
+.news6_definition p {
+    position: absolute;
+    top: 1834px;
+    right: 190px;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.news6_calendar {
+    position: absolute;
+    top: 1893px;
+    right: 866px;
+}
+
+.news6_date p {
+    position: absolute;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    top: 1891px;
+    right: 806px;
+}
+
+.news7_img {
+    position: absolute;
+    top: 1959px;
+    left: 100px;
+}
+
+.news7_definition p {
+    position: absolute;
+    top: 2396px;
+    left: 100px;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.news7_calendar {
+    position: absolute;
+    top: 2482px;
+    left: 100px;
+}
+
+.news7_date p {
+    position: absolute;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    top: 2480px;
+    left: 120px;
+}
+
+.news8_img {
+    position: absolute;
+    top: 1959px;
+    right: 100px;
+}
+
+.news8_definition p {
+    position: absolute;
+    top: 2396px;
+    right: 441px;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.news8_calendar {
+    position: absolute;
+    top: 2428px;
+    right: 866px;
+}
+
+.news8_date p {
+    position: absolute;
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    top: 2426px;
+    right: 809px;
+}
+
+.footer {
+    position: absolute;
+    top: 2568px;
+    width: 100%;
+    height: 393px;
+    background: #e5e1dd;
+}
+
+.footer_logo {
+    position: absolute;
+    bottom: 226px;
+}
+
+.Footer_menu p {
+    position: absolute;
+    font-size: 18px;
+    color: #0d0d0d;
+    left: 444px;
+}
+
+.Footer_about p {
+    bottom: 295px;
+}
+
+.Footer_news p {
+    bottom: 246px;
+}
+
+.Footer_pet p {
+    bottom: 295px;
+    left: 751px;
+}
+
+.Footer_contact p {
+    bottom: 246px;
+    left: 751px;
+}
+
+.Address p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 18px;
+    color: #797775;
+    left: 444px;
+    bottom: 66px;
+}
+
+.Footer_button {
+    position: absolute;
+    width: 153px;
+    height: 55px;
+    border-radius: 27.5px;
+    background: #fff;
+    border: none;
+    bottom: 81px;
+    left: 40px;
+}
+
+.Footer_button p {
+    font-family: Lora;
+    font-size: 16px;
+    text-align: center;
+    color: #0d0d0d;
+}
+
+.Footer_button p:hover {
+    text-decoration: underline;
+}
+
+.Media p {
+    position: absolute;
+    font-size: 18px;
+    text-align: left;
+    color: #0d0d0d;
+    bottom: 148px;
+    right: 243px;
+}
+
+.Facebook {
+    position: absolute;
+    bottom: 97px;
+    right: 304px;
+}
+
+.Instagram {
+    position: absolute;
+    bottom: 98px;
+    right: 259px;
+}
+
+.Vk {
+    position: absolute;
+    bottom: 101px;
+    right: 205px;
+}
+
+.Youtube {
+    position: absolute;
+    bottom: 101px;
+    right: 158px;
+}
+
+.Twitter {
+    position: absolute;
+    bottom: 100px;
+    right: 110px;
+}
+
+.year p {
+    position: absolute;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 0.5);
+    top: 340px;
+    left: 915px;
+}

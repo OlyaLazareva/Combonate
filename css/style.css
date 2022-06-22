@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    box-sizing: border-box;
+}
+
+.widget-list {
+    list-style: none;
+    padding: 0;
+}
+
+.widget-list a {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    padding: 15px 0;
+    letter-spacing: 1px;
+    color: black;
+    transition: .3s linear;
+    text-align: center;
+}
+
+.widget-list a:hover {
+    text-decoration: underline;
+}
+
+.cancel {
+    padding-left: 90%;
+    padding-top: 33px
+}
+
+.header_logo {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+.menu {
+    position: absolute;
+    right: 51px;
+    top: 36px;
+}
+
+.main h1 {
+    position: absolute;
+    font-size: 40px;
+    color: #0d0d0d;
+    top: 213px;
+    left: 910px;
+    font-weight: normal;
+}
+
+.main p {
+    position: absolute;
+    font-family: Lora;
+    font-weight: 500;
+    font-size: 22px;
+    color: #0d0d0d;
+    padding-right: 35px;
+    top: 403px;
+    padding-left: 966px;
+    padding-bottom: 70px;
+}
+
+.Margo {
+    position: absolute;
+    top: 317px;
+    left: 138px;
+}
+
+.definition p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    text-align: left;
+    color: #707070;
+    top: 1166px;
+    left: 138px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.footer {
+    position: absolute;
+    top: 1369px;
+    width: 100%;
+    height: 393px;
+    background: #e5e1dd;
+}
+
+.footer_logo {
+    position: absolute;
+    bottom: 226px;
+}
+
+.Footer_menu p {
+    position: absolute;
+    font-size: 18px;
+    color: #0d0d0d;
+    left: 444px;
+}
+
+.Footer_about p {
+    bottom: 295px;
+}
+
+.Footer_news p {
+    bottom: 246px;
+}
+
+.Footer_pet p {
+    bottom: 295px;
+    left: 751px;
+}
+
+.Footer_contact p {
+    bottom: 246px;
+    left: 751px;
+}
+
+.Address p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 18px;
+    color: #797775;
+    left: 444px;
+    bottom: 66px;
+}
+
+.Footer_button {
+    position: absolute;
+    width: 153px;
+    height: 55px;
+    border-radius: 27.5px;
+    background: #fff;
+    border: none;
+    bottom: 81px;
+    left: 40px;
+}
+
+.Footer_button p {
+    font-family: Lora;
+    font-size: 16px;
+    text-align: center;
+    color: #0d0d0d;
+}
+
+.Footer_button p:hover {
+    text-decoration: underline;
+}
+
+.Media p {
+    position: absolute;
+    font-size: 18px;
+    text-align: left;
+    color: #0d0d0d;
+    bottom: 148px;
+    right: 243px;
+}
+
+.Facebook {
+    position: absolute;
+    bottom: 97px;
+    right: 304px;
+}
+
+.Instagram {
+    position: absolute;
+    bottom: 98px;
+    right: 259px;
+}
+
+.Vk {
+    position: absolute;
+    bottom: 101px;
+    right: 205px;
+}
+
+.Youtube {
+    position: absolute;
+    bottom: 101px;
+    right: 158px;
+}
+
+.Twitter {
+    position: absolute;
+    bottom: 100px;
+    right: 110px;
+}
+
+.year p {
+    position: absolute;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 0.5);
+    top: 340px;
+    left: 915px;
+}

@@ -1,0 +1,106 @@
+#zatemnenie {
+    /* background: rgba(102, 102, 102, 0.5); */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: none; */
+}
+
+#okno {
+    width: 661px;
+    height: 477px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: #e5e1dd;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#okno line {
+    position: absolute;
+    top: 43px;
+    left: 330px;
+    width: 0px;
+    height: 42px;
+    background: transparent;
+    border: 1px solid #707070;
+}
+
+#okno h2 {
+    position: absolute;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000;
+    top: 43px;
+    margin: 0;
+}
+
+#Email {
+    top: 130px;
+    left: 60px;
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    width: 514px;
+    height: 55px;
+    border-radius: 24px;
+    background: #fff;
+    padding-left: 20px;
+}
+
+#Password {
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    width: 514px;
+    height: 55px;
+    border-radius: 24px;
+    background: #fff;
+    padding-left: 20px;
+    top: 219px;
+    left: 60px;
+}
+
+#zatemnenie:target {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    display: inline-block;
+    padding: 0 12px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.authorization {
+    position: absolute;
+    width: 109px;
+    height: 43px;
+    border-radius: 21.5px;
+    background: #cfab84;
+    font-family: Lora;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    top: 302px;
+    left: 276px;
+    border: none;
+}
+
+.authorization:hover {
+    text-decoration: underline;
+}

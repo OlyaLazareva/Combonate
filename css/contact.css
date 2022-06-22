@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_logo {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+.menu {
+    position: absolute;
+    right: 51px;
+    top: 36px;
+}
+
+.main h1 {
+    font-family: Lora;
+    font-weight: normal;
+    font-size: 40px;
+    color: #0d0d0d;
+    text-align: center;
+    padding-top: 216px;
+}
+
+.main p {
+    font-family: Lora;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    padding-top: 67px;
+}
+
+.Margo_img {
+    position: absolute;
+    top: 541px;
+    left: 170px;
+}
+
+.Margo_name p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    color: #000;
+    top: 1008px;
+    left: 318px;
+    padding-top: 0;
+}
+
+.Margo_definition p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    color: #707070;
+    top: 1036px;
+    left: 251px;
+    padding-top: 0;
+}
+
+.Margo_tel p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    color: #707070;
+    top: 1064px;
+    left: 314px;
+    padding-top: 0;
+}
+
+.Maria_img {
+    position: absolute;
+    top: 541px;
+    left: 762px;
+}
+
+.Maria_name p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    color: #000;
+    top: 1008px;
+    left: 910px;
+    padding-top: 0;
+}
+
+.Maria_definition p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    color: #707070;
+    top: 1036px;
+    left: 859px;
+    padding-top: 0;
+}
+
+.Maria_tel p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    color: #707070;
+    top: 1064px;
+    left: 906px;
+    padding-top: 0;
+}
+
+.Alexey_img {
+    position: absolute;
+    top: 541px;
+    right: 170px;
+}
+
+.Alexey_name p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    color: #000;
+    top: 1008px;
+    right: 304px;
+    padding-top: 0;
+}
+
+.Alexey_definition p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    color: #707070;
+    top: 1036px;
+    right: 266px;
+    padding-top: 0;
+}
+
+.Alexey_tel p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 14px;
+    color: #707070;
+    top: 1064px;
+    right: 312px;
+    padding-top: 0;
+}
+
+.feedback {
+    position: absolute;
+    width: 661px;
+    height: 601px;
+    border-radius: 27px;
+    background: #e5e1dd;
+    top: 1164px;
+    left: 630px;
+}
+
+.feedback h2 {
+    position: absolute;
+    top: 60px;
+    left: 222px;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000;
+}
+
+#Name {
+    position: absolute;
+    width: 514px;
+    height: 48px;
+    border-radius: 24px;
+    background: #fff;
+    top: 130px;
+    left: 73px;
+    font-family: Lora;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    padding-left: 20px;
+}
+
+#Email {
+    position: absolute;
+    width: 514px;
+    height: 48px;
+    border-radius: 24px;
+    background: #fff;
+    top: 219px;
+    left: 73px;
+    font-family: Lora;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    padding-left: 20px;
+}
+
+#Message {
+    position: absolute;
+    width: 514px;
+    height: 152px;
+    border-radius: 24px;
+    background: #fff;
+    top: 308px;
+    left: 73px;
+    font-family: Lora;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    padding-left: 20px;
+}
+
+.feedback_button {
+    position: absolute;
+    width: 132px;
+    height: 43px;
+    border-radius: 21.5px;
+    background: #cfab84;
+    top: 520px;
+    left: 457px;
+    border: none;
+    font-family: Lora;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    padding-top: 0;
+    border: none;
+}
+
+.feedback_button:hover {
+    text-decoration: underline;
+}
+
+.Help {
+    position: absolute;
+    width: 100%;
+    height: 582px;
+    background: #fcf8f4;
+    top: 1845px;
+}
+
+.Help h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+    padding-top: 20px;
+}
+
+.material-assistance h3 {
+    position: absolute;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000;
+    top: 99px;
+    left: 130px;
+}
+
+.material-assistance p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    text-align: left;
+    color: #000;
+    top: 140px;
+    left: 147px;
+    padding-top: 0;
+}
+
+.financial-assistance h3 {
+    position: absolute;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000;
+    top: 99px;
+    right: 705px;
+}
+
+.financial-assistance p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    text-align: left;
+    color: #000;
+    top: 272px;
+    right: 122px;
+    padding-top: 0;
+}
+
+.Sber h4 {
+    position: absolute;
+    font-family: Lora;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000;
+    top: 149px;
+    right: 806px;
+}
+
+.score p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    text-align: left;
+    color: #000;
+    top: 173px;
+    right: 312px;
+    padding-top: 0;
+}
+
+.Yandex p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 15px;
+    text-align: left;
+    color: #000;
+    top: 221px;
+    right: 628px;
+    padding-top: 0;
+}
+
+.footer {
+    position: absolute;
+    top: 2427px;
+    width: 100%;
+    height: 393px;
+    background: #e5e1dd;
+}
+
+.footer_logo {
+    position: absolute;
+    bottom: 226px;
+}
+
+.Footer_menu p {
+    position: absolute;
+    font-size: 18px;
+    color: #0d0d0d;
+    left: 444px;
+}
+
+.Footer_about p {
+    bottom: 295px;
+}
+
+.Footer_news p {
+    bottom: 246px;
+}
+
+.Footer_pet p {
+    bottom: 295px;
+    left: 751px;
+}
+
+.Footer_contact p {
+    bottom: 246px;
+    left: 751px;
+}
+
+.Address p {
+    position: absolute;
+    font-family: Lora;
+    font-size: 18px;
+    color: #797775;
+    left: 444px;
+    bottom: 66px;
+}
+
+.Footer_button {
+    position: absolute;
+    width: 153px;
+    height: 55px;
+    border-radius: 27.5px;
+    background: #fff;
+    border: none;
+    bottom: 81px;
+    left: 40px;
+}
+
+.Footer_button p {
+    font-family: Lora;
+    font-size: 16px;
+    text-align: center;
+    color: #0d0d0d;
+}
+
+.Footer_button p:hover {
+    text-decoration: underline;
+}
+
+.Media p {
+    position: absolute;
+    font-size: 18px;
+    text-align: left;
+    color: #0d0d0d;
+    bottom: 148px;
+    right: 243px;
+}
+
+.Facebook {
+    position: absolute;
+    bottom: 97px;
+    right: 304px;
+}
+
+.Instagram {
+    position: absolute;
+    bottom: 98px;
+    right: 259px;
+}
+
+.Vk {
+    position: absolute;
+    bottom: 101px;
+    right: 205px;
+}
+
+.Youtube {
+    position: absolute;
+    bottom: 101px;
+    right: 158px;
+}
+
+.Twitter {
+    position: absolute;
+    bottom: 100px;
+    right: 110px;
+}
+
+.year p {
+    position: absolute;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 0.5);
+    top: 340px;
+    left: 915px;
+}
