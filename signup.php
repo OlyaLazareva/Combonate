@@ -74,7 +74,7 @@ if(isset($_POST['button']))
                 <h2 style="left: 139px;">Регистрация</h2>
                 <line></line>
                 <a href="login.php"><h2 style="color: #707070; left: 350px;">Вход</h2></a>
-                <a href="index.php"><img width="26" height="26" class="close" src="/image/cancel.png" alt=""></a>
+                <a href="index.php"><img width="26" height="26" class="close" src="../image/cancel.png" alt=""></a>
                   
                 <form action="signup.php" method="post">
                     <input name="Name_users" id="Name_users" type="text" placeholder="Имя" size="25" maxlength="25">
