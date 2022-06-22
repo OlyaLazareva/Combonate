@@ -21,7 +21,7 @@ require "db.php";
 </head>
 <body>
     <main class="menu-main">
-        <img class="cancel" src="image/cancel.png" alt="Закрыть">
+        <img class="cancel" src="../image/cancel.png" alt="Закрыть">
         <div class="widget">
             <ul class="widget-list">
                 <li><a href="index.php">Главная</a></li>
