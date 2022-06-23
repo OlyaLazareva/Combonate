@@ -43,7 +43,6 @@
 }
 /* слово на кнопке */
 .header_button p {
-    position: absolute;
     font-family: Lora;
     font-weight: normal;
     font-size: 16px;
@@ -80,19 +79,17 @@
     text-align: left;
     color: #0d0d0d;
     left: 110px;
-    top: 1955px;
     padding-top: 0;
 }
 /* расположение клички Троя */
 .Troy_name p {
-    position: absolute;
     padding-top: 0px;
-    top: 1983px;
-    left: 110px;
+    top: 1955px;
 }
 /* расположение возраста Троя */
 .Troy_age p {
-    padding-top: 5px;
+    top: 1983px;
+    padding-top: 0;
 }
 /* расположение фото Авы */
 .Ava_img {
