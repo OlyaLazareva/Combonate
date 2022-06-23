@@ -47,13 +47,19 @@
     position: absolute;
     top: 394px;
     left: 780px;
-    font-weight: 600;
-    font-size: 18px;
     border: none;
     background-color: white;
 }
 
-.exit:hover {
+.exit p {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Lora;
+    text-align: center;
+    text-decoration: none;
+}
+
+.exit p:hover {
     text-decoration: underline;
 }
 
